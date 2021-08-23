@@ -1,7 +1,7 @@
 # Gradie-Sign-Up-Page
 A challenge by codewell
 
-Made with HTML and CSS
+Made with HTML and SCSS
 
 ## Desktop View
 ![Firefox_Screenshot_2021-08-23T00-45-15 752Z](https://user-images.githubusercontent.com/87293899/130376537-810baad1-be86-4c30-975c-da412dbd56c9.png)
