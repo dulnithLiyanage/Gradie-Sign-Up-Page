@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradie Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tablet-view">
+      <main>
+        <section class="image-section">
+          <h1 class="title">Gradie</h1>
+          <p class="description">Beautiful gradients in seconds.</p>
+          <img src="../Assets/iPhone Mockup_cropped.png" alt="Iphone Mockup" />
+        </section>
+        <section class="login-section">
+          <div class="login-form">
+            <form action="form.php">
+              <h1 class="title">Login</h1>
+              <label for="user_email"
+                ><p class="label">Email</p>
+                <input
+                  type="email"
+                  name="email"
+                  id="user_email"
+                  class="user_input"
+                  placeholder="john@example.com"
+                  required
+              /></label>
+              <label for="user_password"
+                ><p class="label">Password</p>
+                <input
+                  type="password"
+                  name="password"
+                  id="user_password"
+                  class="user_input"
+                  placeholder="At least 8 characters"
+                  required
+              /></label>
+              <label class="agreement-container">
+                <input type="checkbox" name="terms" id="terms" required />
+                <p class="agreement">
+                  By creating an account, you agree to the
+                  <a href="#">Terms & Conditions.</a>
+                </p>
+              </label>
+              <input type="submit" value="Create an Account" class="btn" />
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+$primary-color: black;
+$secondary-color: white;
+$compliment-color: #86bfd3;
+$background-color: #013243;
+
+$regular: 400;
+$bold: 500;
+$bolder: 700;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
